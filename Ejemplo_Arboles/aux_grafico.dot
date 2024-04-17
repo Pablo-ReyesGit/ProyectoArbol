@@ -1,0 +1,15 @@
+digraph grafica{
+rankdir=TB;
+node [shape = record, style=filled, fillcolor=gray100];
+nodo0 [ label ="<C0>|luis|<C1>"];
+nodo1 [ label ="<C0>|ana|<C1>"];
+nodo5 [ label ="<C0>|diego|<C1>"];
+nodo6 [ label ="jorge"];
+nodo5:C1->nodo6;
+nodo1:C1->nodo5;
+nodo0:C0->nodo1;
+nodo2 [ label ="<C0>|valeria|<C1>"];
+nodo3 [ label ="manuel"];
+nodo2:C0->nodo3;
+nodo0:C1->nodo2;
+}
